@@ -2434,8 +2434,8 @@
   ],
   "users": [
     {
-      "email": "test@gmail.com",
-      "password": "Qwerty123",
+      "email": "tanmoy587d@gmail.com",
+      "password": "123",
       "addresses": [
         {
           "name": "Abhishek R",
@@ -2484,29 +2484,7 @@
       "id": "2"
     }
   ],
-  "cart": [
-    {
-      "id": "b5e8",
-      "title": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "discountPercentage": 10.23,
-      "rating": 4.43,
-      "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/8/1.jpg",
-        "https://i.dummyjson.com/data/products/8/2.jpg",
-        "https://i.dummyjson.com/data/products/8/3.jpg",
-        "https://i.dummyjson.com/data/products/8/4.jpg",
-        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": "1"
-    }
-  ],
+  "cart": [],
   "orders": [
     {
       "items": [
@@ -2917,6 +2895,79 @@
       "user": {
         "email": "test@gmail.com",
         "password": "Qwerty123",
+        "addresses": [
+          {
+            "name": "Abhishek R",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          },
+          {
+            "name": "Abhishek R",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          },
+          {
+            "name": "Tanmay Samanta",
+            "email": "tanmoy587d@gmail.com",
+            "phone": "+918768006557",
+            "street": "Vill+P.O - Palasi, Pin Code - 712303, P.S - Gurap, Dist - Hooghly, State - West Bengal",
+            "city": "Gurap, Hooghly, West Bengal, India",
+            "state": "West Bengal",
+            "pinCode": "712303"
+          }
+        ],
+        "id": "1"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Tanmay Samanta",
+        "email": "tanmoy587d@gmail.com",
+        "phone": "+918768006557",
+        "street": "Vill+P.O - Palasi, Pin Code - 712303, P.S - Gurap, Dist - Hooghly, State - West Bengal",
+        "city": "Gurap, Hooghly, West Bengal, India",
+        "state": "West Bengal",
+        "pinCode": "712303"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "7e39",
+      "items": [
+        {
+          "id": "b5e8",
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "totalAmount": 1499,
+      "totalItems": 1,
+      "user": {
+        "email": "tanmoy587d@gmail.com",
+        "password": "123",
         "addresses": [
           {
             "name": "Abhishek R",

@@ -44,7 +44,7 @@ export default function Signup() {
               console.log(data);
             })}
           >
-            <div>
+            {/* <div>
               <label
                 htmlFor="email"
                 className="block text-sm font-medium leading-6 text-gray-900"
@@ -68,7 +68,7 @@ export default function Signup() {
                   <p className="text-red-500">{errors.email.message}</p>
                 )}
               </div>
-            </div>
+            </div> */}
 
             <div>
               <div className="flex items-center justify-between">

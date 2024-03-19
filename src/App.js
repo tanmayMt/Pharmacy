@@ -23,6 +23,8 @@ import PageNotFound from './pages/404';
 import OrderSuccessPage from './pages/OrderSuccessPage';
 import UserOrders from './features/user/components/UserOrders';
 import UserOrdersPage from './pages/UserOrdersPage';
+import ContinueWithEmail from './pages/ContinueWithEmail';
+// import SignupNew from './pages/SignupNew';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -57,6 +59,20 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: '/continueWithEmail',
+    element:(
+
+        <ContinueWithEmail></ContinueWithEmail>
+
+    )
+  },
+  // {
+  //   path: '/signupNew',
+  //   element:(
+  //     <SignupNew></SignupNew>
+  //   )
+  // },
+  {
     path: '/product-detail/:id',
     element: (
       <Protected>
@@ -77,6 +93,14 @@ const router = createBrowserRouter([
       // we will add Page later right now using component directly.
     ),
   },
+
+  // {
+  //   path: '/profile',
+  //   element: (
+  //     <UserProfile></UserProfile>
+  //     // we will add Page later right now using component directly.
+  //   ),
+  // },
   {
     path: '*',
     element: (
