@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
 
-// import { selectLoggedInUser, createUserAsync } from '../authSlice';
+import { selectLoggedInUser, createUserAsync } from '../authSlice';
 import { Link } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
 
@@ -44,7 +44,7 @@ export default function Signup() {
               console.log(data);
             })}
           >
-            {/* <div>
+            <div>
               <label
                 htmlFor="email"
                 className="block text-sm font-medium leading-6 text-gray-900"
@@ -68,7 +68,7 @@ export default function Signup() {
                   <p className="text-red-500">{errors.email.message}</p>
                 )}
               </div>
-            </div> */}
+            </div>
 
             <div>
               <div className="flex items-center justify-between">
